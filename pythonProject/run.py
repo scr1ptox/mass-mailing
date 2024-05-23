@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 login = "" #Логин
 password = "" #Пароль
 fireFoxPath = r'C:\Program Files\Mozilla Firefox\firefox.exe' #Путь к Firefox браузеру
-threadsAmount = 2 #Количество потоков
+threadsAmount = 6 #Количество потоков
 
 class Driver(object):
     def __init__(self, login, password, fireFoxPath): #Инициализация класса
