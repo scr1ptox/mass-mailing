@@ -7,8 +7,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-login = "Scr1pt0x@mail.ru" #Логин
-password = "7m3a5g01m" #Пароль
+login = "" #Логин
+password = "" #Пароль
 fireFoxPath = r'C:\Program Files\Mozilla Firefox\firefox.exe' #Путь к Firefox браузеру
 threadsAmount = 2 #Количество потоков
 
